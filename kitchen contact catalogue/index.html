@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kitchen Contact - Premium event rentals for chairs, tables, canopies, and more. Delivered with class in Nigeria.">
+    <title>Kitchen Contact | Premium Event Rentals — Delivered with Class</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="asset/favicon.ico" type="image/x-icon">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Kitchen Contact",
+      "image": "asset/logo.jpg",
+      "url": "https://yourwebsite.com",
+      "telephone": "+2348188726102",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Lagos",
+        "addressRegion": "Lagos",
+        "addressCountry": "NG"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      } 
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="asset/logo.jpg" alt="Kitchen Contact Logo" width="80" height="70">
+                <div>
+                    <h1><span class="k">Kitchen</span> Contact</h1>
+                    <p>Premium Event Rentals — Delivered with Class</p>
+                </div>
+            </div>
+            <a href="https://wa.me/2348188726102?text=Hello%20Kitchen%20Contact%2C%20I%27d%20like%20to%20place%20an%20order." class="btn btn-whatsapp" id="whatsapp-top">
+                <i class="fab fa-whatsapp"></i> Order on WhatsApp
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Everything You Need to Host in Style</h1>
+            <p>Explore chairs, coolers, canopies, decor & more</p>
+            <a href="#featured" class="btn">View Rentals</a>
+            <div class="order-notice">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Add items to your order and click WhatsApp to complete your booking!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Items Section -->
+    <section id="featured" class="featured">
+        <div class="container">
+            <div class="featured-title">
+                <i class="fas fa-star"></i>
+                <h2>Hot Picks This Month</h2>
+            </div>
+            
+            <div class="featured-items">
+                <!-- Featured Item 1 -->
+                <div class="featured-card">
+                    <img src="asset/chaffingdish.jpg" alt="Chaffing Dish 9litres 2compartment" loading="lazy" width="300" height="200">
+                    <h3>Chaffing Dish 9litres 2compartment</h3>
+                    <p class="item-price">₦800 each</p>
+                    <div class="quantity-selector">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" min="1" value="1" class="quantity-input">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="item-btn" data-item="Chaffing Dish 9litres 2compartment" data-price="800">Add to Order</button>
+                </div>
+                
+                <!-- Featured Item 2 -->
+                <div class="featured-card">
+                    <img src="asset/canopy.jpg" alt="100-Seater Canopy" loading="lazy" width="300" height="200">
+                    <h3>100-Seater Canopy</h3>
+                    <p class="item-price">₦5,000</p>
+                    <div class="quantity-selector">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" min="1" value="1" class="quantity-input">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="item-btn" data-item="100-Seater Canopy" data-price="5000">Add to Order</button>
+                </div>
+                
+                <!-- Featured Item 3 -->
+                <div class="featured-card">
+                    <img src="asset/TabletopGasstove.jpg" alt="Table Top Stove" loading="lazy" width="300" height="200">
+                    <h3>Table Top Stove</h3>
+                    <p class="item-price">₦3,500</p>
+                    <div class="quantity-selector">
+                        <button class="quantity-btn minus">-</button>
+                        <input type="number" min="1" value="1" class="quantity-input">
+                        <button class="quantity-btn plus">+</button>
+                    </div>
+                    <button class="item-btn" data-item="Table Top Stove" data-price="3500">Add to Order</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <div class="testimonial">
+        <div class="container">
+            <blockquote>
+                I don't reply to 20 DMs a day anymore — clients just click and order directly through my catalogue.
+                <cite>— Temi, Lagos</cite>
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Rental Collection</h2>
+                <p>Quality items for your next event</p>
+            </div>
+            
+            <div class="catalogue-actions">
+                <a href="asset/catalogue.pdf" class="btn btn-outline" id="downloadPdf" download="KitchenContact_Catalogue.pdf">
+                    <i class="fas fa-file-pdf"></i> Download Catalogue
+                </a>
+                <a href="https://wa.me/2348188726102?text=Hi%2C%20I%E2%80%99m%20interested%20in%20renting%20some%20items.%20Could%20you%20help%20me%20with%20the%20prices%20and%20availability%3F" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Quick Order
+                </a>
+            </div>
+            
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="popular">🎉 Popular Rentals</button>
+                <button class="tab-btn" data-tab="coolers">❄️ Chaffers & Warmers</button>
+                <button class="tab-btn" data-tab="tableware">🍽️ Tableware</button>
+                <button class="tab-btn" data-tab="chairs">🪑 Chairs & Tables</button>
+            </div>
+            
+            <!-- Popular Rentals Tab -->
+            <div id="popular" class="tab-content active">
+                <div class="items-grid">
+                    <!-- Item 1 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/round-tables.jpg" alt="Gold Chiavari Chair" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Gold Chiavari Chair</h3>
+                            <p class="item-price">₦10000 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Gold Chiavari Chair" data-price="10000">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 2 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/canopy.jpg" alt="100-Seater Canopy" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>100-Seater Canopy</h3>
+                            <p class="item-price">₦12,000</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="100-Seater Canopy" data-price="12000">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Coolers & Warmers Tab -->
+            <div id="coolers" class="tab-content">
+                <div class="items-grid">
+                    <!-- Item 1 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/industrial-cooler.jpg" alt="Industrial Cooler" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Industrial Cooler</h3>
+                            <p class="item-price">₦3,500</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Industrial Cooler" data-price="3500">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 2 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/tabletop-chiller.jpg" alt="Tabletop Chiller" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Tabletop Chiller</h3>
+                            <p class="item-price">₦2,000</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Tabletop Chiller" data-price="2000">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Chaffers Section -->
+                <div class="section-subtitle">
+                    <h3>Chaffers & Warmers</h3>
+                </div>
+                <div class="items-grid">
+                    <!-- Chaffer Item 1 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/round-chaffer.jpeg" alt="Round Chaffer" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Round Chaffer</h3>
+                            <p class="item-price">₦2,000 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Round Chaffer" data-price="2000">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Chaffer Item 2 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/gold-round-chaffer.jpeg" alt="Gold Round Chaffer" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Gold Round Chaffer</h3>
+                            <p class="item-price">₦4,000 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Gold Round Chaffer" data-price="4000">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Chaffer Item 3 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/rectangular-3in1-chaffer.jpeg" alt="Rectangular 3in1 Chaffer" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Rectangular 3in1 Chaffer</h3>
+                            <p class="item-price">₦2,500 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Rectangular 3in1 Chaffer" data-price="2500">Add to Order</button>
+                        </div>
+                    </div>
+
+                      <!-- Chaffer Item 4 -->
+                      <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/silver-gold-rectangular.jpeg" alt="Rectangular 3in1 Chaffer" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Silver&Gold Rectangular Chaffers</h3>
+                            <p class="item-price">₦2,500 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Silver&Gold Rectangular Chaffers" data-price="2500">Add to Order</button>
+                        </div>
+                    </div>
+
+                    <!-- Chaffer Item 5 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/rectanglar-2in1-chaffer.jpeg" alt="Rectangular 2in1 Chaffer" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Rectangular 2in1 Chaffer</h3>
+                            <p class="item-price">₦2,000 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Rectangular 2in1 Chaffer" data-price="2000">Add to Order</button>
+                        </div>
+                    </div>
+
+                     <!-- Chaffer Item 6 -->
+                     <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/gold-chaffer-2in1.jpeg" alt="Gold 2in1 Chaffer" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Gold 2in1 Chaffer</h3>
+                            <p class="item-price">₦6,000 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Gold 2in1 Chaffer" data-price="6000">Add to Order</button>
+                        </div>
+                    </div>
+
+                     <!-- Chaffer Item 7 -->
+                     <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/silver-chaffer-2in1.jpeg" alt="Silver Chaffer 2in1" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Silver Chaffer 2in1</h3>
+                            <p class="item-price">₦2,500 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Silver Chaffer 2in1" data-price="2500">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Chaffer Item 8 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/black-chaffer.jpeg" alt="Black Chaffer 2in1" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Black Chaffer 2in1</h3>
+                            <p class="item-price">₦7,000 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Black Chaffer 2in1" data-price="7000">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tableware Tab -->
+            <div id="tableware" class="tab-content">
+                <div class="items-grid">
+                    <!-- Glassware Section -->
+                    <div class="section-subtitle">
+                        <h3>Premium Glass Plates</h3>
+                    </div>
+                    
+                    <!-- Glass Item 1 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/gold-thick-rim-glass.jpeg" alt="Gold Thick Rim Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Gold Thick Rim Glass Plate</h3>
+                            <p class="item-price">₦700 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Gold Thick Rim Glass Plate" data-price="700">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Glass Item 2 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/pink-gold-glass.jpeg" alt="Pink and Gold Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Pink and Gold Glass Plate</h3>
+                            <p class="item-price">₦700 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Pink and Gold Glass Plate" data-price="700">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Glass Item 3 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/gold-white-glass.jpeg" alt="Gold and White Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Gold and White Glass Plate</h3>
+                            <p class="item-price">₦700 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Gold and White Glass Plate" data-price="700">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Glass Item 4 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/silver-rim-glass.jpeg" alt="Silver Rim Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Silver Rim Glass Plate</h3>
+                            <p class="item-price">₦500 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Silver Rim Glass Plate" data-price="500">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Glass Item 5 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/white-rim-glass.jpeg" alt="White Rim Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>White Rim Glass Plate</h3>
+                            <p class="item-price">₦600 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="White Rim Glass Plate" data-price="600">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Glass Item 6 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/slim-gold-rim-glass.jpeg" alt="Slim Gold Rim Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Slim Gold Rim Glass Plate</h3>
+                            <p class="item-price">₦500 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Slim Gold Rim Glass Plate" data-price="500">Add to Order</button>
+                        </div>
+                    </div>
+
+                      <!-- Glass Item 7 -->
+                      <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/black-rim-glass.jpeg" alt="Black Rim Glass Plate" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Black Rim Glass Plate</h3>
+                            <p class="item-price">₦500 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Black Rim Glass Plate" data-price="500">Add to Order</button>
+                        </div>
+                    </div>
+
+                     <!-- Glass Item 8 -->
+                     <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/clear-designed-edge.jpeg" alt="Clear Designed Edge" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Clear Designed Edge</h3>
+                            <p class="item-price">₦600 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Clear Designed Edge" data-price="500">Add to Order</button>
+                        </div>
+                    </div>
+                     <!-- Glass Item 9 -->
+                     <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/gold-edge-glass.jpeg" alt="Gold Edge Glass" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Gold Edge Glass</h3>
+                            <p class="item-price">₦400 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Gold Edge Glass" data-price="400">Add to Order</button>
+                        </div>
+                    </div>
+                     <!-- Glass Item 10  -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/brown-glass.jpeg" alt="Brown Rustic Glass" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Brown Rustic Glass</h3>
+                            <p class="item-price">₦700 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Brown Rustic Glass" data-price="700">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            
+            <!-- Chairs & Tables Tab -->
+            <div id="chairs" class="tab-content">
+                <div class="items-grid">
+                    <!-- Item 1 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/plastic-chairs.jpg" alt="Plastic Chairs" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Plastic Chairs</h3>
+                            <p class="item-price">₦300 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Plastic Chairs" data-price="300">Add to Order</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Item 2 -->
+                    <div class="item-card">
+                        <div class="item-img">
+                            <img src="asset/round-tables.jpg" alt="Round Tables" loading="lazy" width="300" height="200">
+                        </div>
+                        <div class="item-details">
+                            <h3>Round Tables</h3>
+                            <p class="item-price">₦1,200 each</p>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" min="1" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="item-btn" data-item="Round Tables" data-price="1200">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-title">
+                <h2>How It Works</h2>
+                <p>Simple process to get your rentals</p>
+            </div>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>1. Browse Items</h3>
+                    <p>Explore our premium rental collection and select what you need for your event.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>2. Order on WhatsApp</h3>
+                    <p>Send us your order via WhatsApp with your preferred items and quantities.</p>
+                </div>
+                
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>3. Confirm & Delivery</h3>
+                    <p>We'll confirm availability and arrange delivery for your event date.</p>
+                </div>
+            </div>
+            
+            <div class="note-box">
+                <p>🔁 <strong>We don't auto-book dates</strong> — you're still in control of which orders you accept.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Can I book for multiple dates?</div>
+                    <div class="faq-answer">
+                        <p>Yes, you can book items for multiple dates. Please specify each date when placing your order so we can check availability for all requested dates.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What's the minimum quantity?</div>
+                    <div class="faq-answer">
+                        <p>We don't have a strict minimum quantity, but some items may have minimum rental requirements due to delivery logistics. This will be communicated when you place your order.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Is delivery included?</div>
+                    <div class="faq-answer">
+                        <p>Delivery fees depend on your location and order size. We'll provide delivery cost estimates when you place your order.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How do I pay?</div>
+                    <div class="faq-answer">
+                        <p>We accept bank transfers and mobile money payments. A deposit is required to confirm your booking, with the balance due before delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-cta">
+                <h2>Ready to Order?</h2>
+                <p>Get in touch via WhatsApp to check availability and place your order</p>
+                <div class="order-notice">
+                    <i class="fas fa-shopping-cart"></i>
+                    <p>After adding items, click below to send your order via WhatsApp</p>
+                </div>
+                <a href="https://wa.me/2348188726102?text=Hello%20Kitchen%20Contact%2C%20I%27d%20like%20to%20place%20an%20order." class="btn btn-whatsapp" id="whatsapp-bottom">
+                    <i class="fab fa-whatsapp"></i> Complete Order via WhatsApp
+                </a>
+                
+                <div class="social-links">
+                    <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="tel:+2348188726102"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <img src="asset/logo.jpg" alt="Kitchen Contact Logo" width="80" height="70">
+                <div>
+                    <h1>Kitchen Contact</h1>
+                    <p>Premium Event Rentals — Delivered with Class</p>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <a href="#categories">Our Rentals</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            <p class="copyright">© <span id="current-year"></span> Kitchen Contact. All rights reserved.</p>
+            <p class="copyright">Catalogue prices are subject to change — confirm availability via WhatsApp.</p>
+        </div>
+    </footer>
+
+    <!-- Success Message -->
+    <div class="success-message" id="success-message">
+        Item added to order! <span id="item-count">0</span> items in your order.
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
